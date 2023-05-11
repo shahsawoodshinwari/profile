@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/profile-picture.jpg">
+    <title>Welcome</title>
+    <style>
+        html {
+            touch-action: manipulation;
+            user-zoom: fixed;
+            -ms-content-zooming: none;
+            -ms-user-zoom: fixed;
+            -moz-user-zoom: fixed;
+            -webkit-user-zoom: fixed;
+            -webkit-touch-callout: none;
+            user-select: none;
+        }
+
+        .mix-blend-mode-multiply {
+            mix-blend-mode: multiply
+        }
+
+        .hover-drop-shadow {
+            transition: filter 0.3s ease-in-out
+        }
+
+        .hover-drop-shadow:hover {
+            filter: drop-shadow(2px 4px 6px black)
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        @media (min-width: 992px) {
+            .rounded-lg-start {
+                border-bottom-left-radius: var(--bs-border-radius) !important;
+                border-top-left-radius: var(--bs-border-radius) !important;
+            }
+        }
+
+        .px\:max-h-200 {
+            max-height: 200px !important
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5" style="background-color: whitesmoke;">
+        <div class="container">
+            <div class="card border-0 shadow-sm">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-3 col-lg-3">
+                        <img src="assets/images/profile-picture.jpg" class="img-fluid rounded-lg-start"
+                            alt="profile picture">
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9">
+                        <div class="card-body">
+                            <div class="card-text text-justify text-muted mb-3 mb-lg-0">
+                                "Welcome to my personal website, where I showcase my skills and passion as a full-stack
+                                web developer. With expertise in a diverse range of technologies such as HTML, CSS,
+                                JavaScript, Python, Flask, Django, PHP, Laravel, SQLite3, SQL, MySQL, databases,
+                                Bootstrap, Tailwind, React, and many others, I have honed my craft through self-taught
+                                learning, with the renowned Harvard University course, CS50, being my main source of
+                                knowledge. As a highly motivated and dedicated developer, I am constantly striving to
+                                expand my skill set and create innovative, dynamic, and user-friendly web applications
+                                that provide exceptional value and engagement for my clients and users. Thank you for
+                                visiting, and I hope you enjoy exploring my portfolio and learning more about me and my
+                                work!"
+                            </div>
+                            <div class="text-center">
+                                <a href="https://gitlab.com/shahsawoodshinwari" target="_blank"
+                                    class="text-decoration-none mix-blend-mode-multiply" title="gitlab profile">
+                                    <img src="assets/images/gitlab.png" width="33" alt="gitlab logo">
+                                </a>
+                                <a href="https://github.com/shahsawoodshinwari" target="_blank"
+                                    class="text-decoration-none mix-blend-mode-multiply" title="github profile">
+                                    <img src="assets/images/github.png" width="38" alt="github logo">
+                                </a>
+                                <a href="https://facebook.com/shahswood.delta.9" target="_blank"
+                                    class="text-decoration-none mix-blend-mode-multiply" title="facebook profile">
+                                    <img src="assets/images/facebook.png" width="28" alt="facebook logo">
+                                </a>
+                                <a href="https://wa.me/923460149720" target="_blank"
+                                    class="text-decoration-none mix-blend-mode-multiply" title="whatsapp profile">
+                                    <img src="assets/images/whatsapp.png" width="31" alt="whatsapp logo">
+                                </a>
+                                <a href="tel:923460149720" class="text-decoration-none mix-blend-mode-multiply"
+                                    title="phone number">
+                                    <img src="assets/images/phone.webp" width="38" alt="phone number">
+                                </a>
+                                <a href="https://linkedin.com/in/shahsawoodshinwari" target="_blank"
+                                    class="text-decoration-none mix-blend-mode-multiply" title="linkedin profile">
+                                    <img src="assets/images/linkedin.png" width="28" alt="linkedin logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-3" style="background-color: aliceblue;">
+        <div class="container">
+            <h1 class="mb-3 text-center" id="contact" style="scroll-margin-top: 56px;">
+                <b>Languages & Skills</b>
+            </h1>
+            <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">c</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/c.png" class="img-fluid px:max-h-200" alt="c logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">c++</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/cpp.png" class="img-fluid px:max-h-200" alt="c++ logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">python</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/python.png" class="img-fluid px:max-h-200" alt="python logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">sqlite3</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/sqlite3.gif" class="img-fluid px:max-h-200" alt="sqlite3 logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">html</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/html.png" class="img-fluid px:max-h-200" alt="html logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">css</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/css.png" class="img-fluid px:max-h-200" alt="css logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">javascript</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/javascript.png" class="img-fluid px:max-h-200" alt="javascript logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">flask</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/flask.png" class="img-fluid px:max-h-200" alt="flask logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">django</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/django.png" class="img-fluid px:max-h-200" alt="django logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">jquery</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/jquery.png" class="img-fluid px:max-h-200" alt="jquery logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">bootstrap</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/bootstrap.png" class="img-fluid px:max-h-200" alt="bootstrap logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">tailwind</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/tailwind.png" class="img-fluid px:max-h-200" alt="tailwind logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">markdown</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/markdown.png" class="img-fluid px:max-h-200" alt="markdown logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">github</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/github.png" class="img-fluid px:max-h-200" alt="github logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">gitlab</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/gitlab.png" class="img-fluid px:max-h-200" alt="gitlab logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">php</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/php.png" class="img-fluid px:max-h-200" alt="php logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">laravel</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/laravel.png" class="img-fluid px:max-h-200" alt="laravel logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm hover-drop-shadow border-0 card-primary">
+                        <div class="card-header text-uppercase text-bg-primary">mysql</div>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <img src="assets/images/mysql.png" class="img-fluid px:max-h-200" alt="mysql logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-3" style="background-color: wheat;">
+        <div class="container">
+            <h1 class="text-center mb-3" id="projects" style="scroll-margin-top: 56px;">Projects</h1>
+            <div class="row align-items-center row-cols-1 row-cols-lg-2 g-3">
+                <div class="col">
+                    <img src="assets/images/Home _ RaceLookup.png" class="img-fluid img-thumbnail hover-drop-shadow"
+                        title="RaceLookup Home Page" alt="RaceLookup Home Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/Events _ RaceLookup.png" class="img-fluid img-thumbnail hover-drop-shadow"
+                        title="RaceLookup Events Page" alt="RaceLookup Events Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/Home - Exotic Pet wholesale.png"
+                        class="img-fluid img-thumbnail hover-drop-shadow" title="Exoticpet Home Page"
+                        alt="Exoticpet Home Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/Our Products - Exotic Pet wholesale.png"
+                        class="img-fluid img-thumbnail hover-drop-shadow" title="Exoticpet Products Page"
+                        alt="Exoticpet Products Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/GrubFund - Home.png" class="img-fluid img-thumbnail hover-drop-shadow"
+                        title="The Grub Fund Home Page"" alt=" The Grub Fund Home Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/GrubFund - Get Started.png"
+                        class="img-fluid img-thumbnail hover-drop-shadow" title="The Grub Fund Get Started Page"
+                        alt="The Grub Fund Get Started Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/Find Me Career.png" class="img-fluid img-thumbnail hover-drop-shadow"
+                        title="Find Me Caeer Home Page" alt="Find Me Caeer Home Page">
+                </div>
+                <div class="col">
+                    <img src="assets/images/School_College Student - Find Me Career.png"
+                        class="img-fluid img-thumbnail hover-drop-shadow"
+                        title="Find Me Career School College Student Page"
+                        alt="Find Me Career School College Student Page">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
